@@ -23,3 +23,20 @@ Clone the repository and install dependencies:
 git clone https://github.com/Pygojo/Fraud-Detection-Model.git
 cd Fraud-Detection-Model
 pip install -r requirements.txt
+
+---
+## Usage
+streamlit run Fraud_detection_Model.py
+
+## 📂 Project Structure
+fraud-detection-model/
+│
+├── app.py                  # Streamlit app
+├── Fraud_detection_model.pkl  # Trained supervised model
+├── preprocessor.pkl        # Preprocessing pipeline
+├── iso_model.pkl           # Isolation Forest anomaly detector
+├── requirements.txt        # Dependencies
+└── README.md               # Project documentation
+
+## 📜 License
+This project is licensed under the MIT License.
