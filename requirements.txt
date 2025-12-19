@@ -1,0 +1,5 @@
+catboost
+sk-learn==1.5.2
+isolationforest
+pandas
+numpy
