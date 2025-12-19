@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ---
 ## Usage
-streamlit run Fraud_detection_Model.py
+streamlit run streamlit_fraud_prediction_model.py
 
 ## 📂 Project Structure
 fraud-detection-model/
