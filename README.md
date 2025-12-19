@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 This project applies machine learning techniques to detect fraudulent transactions.  
-It combines **supervised learning** (Logistic Regression / XGBoost) with **unsupervised anomaly detection** (Isolation Forest) to flag suspicious activity.  
+It combines **supervised learning** (CatBoost) with **unsupervised anomaly detection** (Isolation Forest) to flag suspicious activity.  
 The model is deployed using **Streamlit**, providing an interactive web interface for predictions.
 
 ---
