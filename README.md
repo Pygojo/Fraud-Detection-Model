@@ -31,10 +31,11 @@ streamlit run Fraud_detection_Model.py
 ## 📂 Project Structure
 fraud-detection-model/
 │
-├── app.py                  # Streamlit app
-├── Fraud_detection_model.pkl  # Trained supervised model
-├── preprocessor.pkl        # Preprocessing pipeline
-├── iso_model.pkl           # Isolation Forest anomaly detector
+├── streamlit_fraud_prediction_model.py                  # Streamlit app
+├── fraud_detection_model.pkl  # Trained supervised model
+├── base_fraud_detection_model.pkl  # Trained supervised model
+├── fraud_preprocessor.pkl        # Preprocessing pipeline
+├── fraud_iso.pkl           # Isolation Forest anomaly detector
 ├── requirements.txt        # Dependencies
 └── README.md               # Project documentation
 
